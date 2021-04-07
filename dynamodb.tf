@@ -1,5 +1,5 @@
 resource "aws_dynamodb_table" "default" {
-  name           = "cv-servicedynamodb"
+  name           = "app-service-dynamodb"
   read_capacity  = var.autoscale_min_read_capacity
   write_capacity = var.autoscale_min_write_capacity
   hash_key       = var.hash_key
