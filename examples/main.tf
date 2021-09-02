@@ -1,6 +1,7 @@
 module "dynamodb_table" {
   source = "git::ssh://git@github.com:tonygyerr/terraform-aws-dynamodb.git"
   #name               = var.name
+  dynamodb_table_name = var.dynamodb_table_name
   namespace  = var.namespace
   delimiter  = var.delimiter
   attributes = var.attributes
