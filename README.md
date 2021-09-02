@@ -32,15 +32,6 @@ terraform apply -var-file="../env-config/dev.tfvars" -auto-approve
 terraform destroy -var-file="../env-config/dev.tfvars"
 ```
 
-## How to Run this Module using Makefile Process
-```bash
-make auth
-make get
-make init
-make plan
-make apply
-```
-
 ## Requirements
 
 | Name | Version |
@@ -102,3 +93,6 @@ make apply
 | dynamodb\_table\_id | DynamoDB table ID |
 | dynamodb\_table\_name | DynamoDB table name |
 | dynamodb\_table\_stream\_arn | DynamoDB table stream ARN |
+
+## Contributors to this project
+- name: "Gyepi-Garbrah, Ekow (Tony) <a.gyepigarbrah@gmail.com>"
